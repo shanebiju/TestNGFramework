@@ -27,6 +27,7 @@ public class OrderConfirmationTest extends BaseTest {
         reviewPage.clickOnFinishBtn();
 
         Assert.assertTrue(orderConfirmationPage.isOrderConfirmationMsgDisplayed());
+        //Assert.fail("order confirmation failed");
     }
 
 }
